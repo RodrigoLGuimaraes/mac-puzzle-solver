@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		119DB35124B8A1750025AD2C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DB35024B8A1750025AD2C /* main.swift */; };
+		119DB35824B8A20C0025AD2C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DB35724B8A20C0025AD2C /* Game.swift */; };
+		119DB35A24B8A22A0025AD2C /* MultipleGameRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DB35924B8A22A0025AD2C /* MultipleGameRunner.swift */; };
+		119DB35C24B8A23B0025AD2C /* Array+removeDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119DB35B24B8A23B0025AD2C /* Array+removeDuplicates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		119DB34D24B8A1750025AD2C /* puzzlesolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = puzzlesolver; sourceTree = BUILT_PRODUCTS_DIR; };
 		119DB35024B8A1750025AD2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		119DB35724B8A20C0025AD2C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		119DB35924B8A22A0025AD2C /* MultipleGameRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleGameRunner.swift; sourceTree = "<group>"; };
+		119DB35B24B8A23B0025AD2C /* Array+removeDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+removeDuplicates.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				119DB35024B8A1750025AD2C /* main.swift */,
+				119DB35724B8A20C0025AD2C /* Game.swift */,
+				119DB35924B8A22A0025AD2C /* MultipleGameRunner.swift */,
+				119DB35B24B8A23B0025AD2C /* Array+removeDuplicates.swift */,
 			);
 			path = puzzlesolver;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				119DB35124B8A1750025AD2C /* main.swift in Sources */,
+				119DB35C24B8A23B0025AD2C /* Array+removeDuplicates.swift in Sources */,
+				119DB35A24B8A22A0025AD2C /* MultipleGameRunner.swift in Sources */,
+				119DB35824B8A20C0025AD2C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
+let initial = Date()
+MultipleGameRunner().run()
+let distance = initial.distance(to: Date())
