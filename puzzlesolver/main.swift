@@ -9,5 +9,7 @@
 import Foundation
 
 let initial = Date()
+print("Started at \(initial)")
 MultipleGameRunner().run()
 let distance = initial.distance(to: Date())
+print("Finished after \(distance) seconds")

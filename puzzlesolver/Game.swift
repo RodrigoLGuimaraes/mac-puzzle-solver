@@ -14,7 +14,7 @@ enum GameError: Error {
 
 class Game {
     let numberOfPositions: Int
-    let guessesMaximumLength: Int
+    var guessesMaximumLength: Int
     var possibleDroids = [Int]()
     var playedGuesses = [Int]()
     var strategy: (Game) -> Int
